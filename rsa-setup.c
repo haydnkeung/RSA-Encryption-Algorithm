@@ -4,8 +4,8 @@
 #include <assert.h>
 #include "diophantine.h"
 #define e 3
-#define LIMIT 11
-//we will use e=3 for this RSA implementation
+#define LIMIT 100
+//we will use e=(2^16)+1 for this RSA implementation
 //This RSA will use the Euler totient function instead of Carmicheal's
 //LIMIT is the maximum number that p or q can possible be
 

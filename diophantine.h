@@ -41,7 +41,7 @@ int diophantinesolver(int phi, int e){
 
 	}while(r2!=0);
 	//printf("gcd:%d\n",r1 );
-	printf("%d*%d+%d*%d=1\n",phi,k1,e,d1 );
+	printf("Certificate of correctness: %d*%d+%d*%d=%d\n",phi,k1,e,d1,(phi*k1+e*d1));
 	return d1;
 
 }
